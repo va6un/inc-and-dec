@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: aqua;
+    width: 500px;
+    height: 250px;padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#display{
+    width: 90%;
+    height: 55px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-align: right;
+    font-size: larger;
+}
+
+.buttons{
+    display: flex;
+    gap: 100px;
+    margin: 20px;
+}
+.buttons input{
+    width: 70px;
+    height: 30px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+}
+
+#reset{
+    background-color: rgba(255, 0, 0, 0.84);
+}
